@@ -6,7 +6,7 @@ import { addExpense, removeExpense } from './actions/expenses';
 import { setTextFilter } from './actions/filters';
 import {Provider} from 'react-redux';
 import getVisibleExpenses from './selectors/expenses';
-//import 'normalize.css/normalize.css';
+import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 const store = configureStore();
